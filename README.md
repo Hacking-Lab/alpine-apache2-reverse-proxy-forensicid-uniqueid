@@ -18,12 +18,12 @@ This is the template alpine apache2 reverse proxy with a sample php enabled back
 ## Build & Test
 1. `bash build.sh`
 2. `docker-compse -f docker-compose-local.yml up`
-3. browse to http://localhost:8000/
+3. browse to http://localhost/
 
 ## Testing only (without building)
 1. `docker pull hackinglab/alpine-apache2-reverse-proxy-forensicid-uniqueid:latest`
 2. `docker-compose -f docker-compose-local.yml up`
-3. browse to http://localhost:8000/
+3. browse to http://localhost/
 
 
 
